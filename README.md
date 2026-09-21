@@ -1,50 +1,81 @@
 <div align="center">
 
-# ⚡ Exodus-AI: Dedicated Uncensored LLM Infrastructure
+# ⚡ Exodus-AI: Private Dedicated AI Infrastructure
 
-**High-performance, single-tenant private AI servers powered by abliterated models.  
-Zero logging. Zero guardrails. Pure crypto checkout.**
+**Turnkey, single-tenant uncensored LLM instances on dedicated hardware.**  
+**Zero logs. No content filters. 100% anonymous crypto billing.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Docker Support](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](docker-compose.yml)
-[![Inference Engine](https://img.shields.io/badge/Engine-vLLM-00E5FF)](https://github.com/vllm-project/vllm)
-[![UI](https://img.shields.io/badge/Frontend-OpenWebUI-purple)](https://github.com/open-webui/open-webui)
-[![Payment](https://img.shields.io/badge/Billing-Crypto%20%7C%20No%20KYC-F7931A)](https://t.me/ExodusAISupport)
+[![Status](https://img.shields.io/badge/Service-Active%20%7C%20Taking%20Orders-00E5FF)](#-order-a-server)
+[![Hardware](https://img.shields.io/badge/Hardware-Dedicated%2024GB%20VRAM-76B900?logo=nvidia&logoColor=white)](#-hardware--models)
+[![Logging](https://img.shields.io/badge/Telemetry-Zero%20Logs-red)](#-privacy--security-guarantee)
+[![Payment](https://img.shields.io/badge/Payment-Crypto%20%7C%20No%20KYC-F7931A)](#-pricing--payment)
 
-[Quickstart (Self-Hosted)](#-option-1-diy-self-host-free) • [Order Dedicated Node](#-option-2-order-a-managed-exodus-node-250mo) • [Architecture](#-architecture) • [Security & Privacy](#-privacy--zero-logging-guarantee)
+[Hardware & Models](#-hardware--models) • [How It Works](#-how-it-works) • [What You Receive](#-what-you-receive) • [Pricing & Payment](#-pricing--payment) • [Order a Server](#-order-a-server)
 
 </div>
 
 ---
 
-## ⚡ Overview
+## ⚡ What is Exodus-AI?
 
-Exodus-AI provides an unthrottled, single-tenant AI environment designed for developers, red-teamers, and creators who require unfiltered inference without telemetry, corporate logging, or preachy safety refusals.
+Exodus-AI provides managed, isolated cloud AI infrastructure for power users, developers, and businesses who need unfiltered models without corporate surveillance or preachy guardrail refusals.
 
-You can use the open-source configuration in this repository to run the stack on your own hardware for free, or order a turnkey, fully-managed 24GB VRAM node provisioned within minutes.
-
----
-
-## ⚖️ Deployment Comparison
-
-| Feature | Self-Hosted (DIY) | Exodus-AI Managed Node |
-| :--- | :--- | :--- |
-| **Cost** | Free (MIT License) | **$250 / month (Paid in Crypto)** |
-| **Hardware** | Your local PC / GPU | **Dedicated 24GB RTX 4090 / A6000** |
-| **Setup Time** | 30–60 mins (Manual drivers/CUDA) | **Ready in 10 minutes** |
-| **Power & Heat** | 450W+ continuous home draw | **Hosted in tier-3 datacenter** |
-| **Networking** | Manual port forwarding & DDNS | **Dedicated HTTPS Cloudflare Tunnel** |
-| **Model Preloading**| Slow download speeds | **Preloaded & warmed up** |
-| **API Endpoints** | `localhost:8000` | **Public `/v1` endpoint (Claude Code/Cursor ready)** |
-| **Payment / KYC** | N/A | **USDT / USDC / BTC / Monero (No KYC)** |
+We handle the entire server deployment, driver tuning, model weight caching, and network security. You pay month-to-month in cryptocurrency, and we deliver a ready-to-use private node within minutes.
 
 ---
 
-## 🚀 Option 1: DIY Self-Host (Free)
+## 🛠️ Hardware & Models
 
-If you already have a 24GB+ NVIDIA GPU (RTX 3090, 4090, or professional series) running Ubuntu with the NVIDIA Container Toolkit installed:
+Every deployment runs on dedicated, non-shared compute:
 
-### 1. Clone the repository
-```bash
-git clone [https://github.com/your-username/Exodus-AI.git](https://github.com/your-username/Exodus-AI.git)
-cd Exodus-AI
+* **Hardware:** Dedicated 24GB VRAM GPU instance (RTX 4090 / A6000 class).
+* **Available Model Architectures:**
+  * **Abliterated Coding & Agentic:** High-parameter reasoning models (e.g., Qwen 27B) tuned for automated terminal loops, repository analysis, and tool-calling with guardrail refusals removed.
+  * **Unfiltered Creative & Roleplay:** Unrestricted conversational models (e.g., Llama 70B Quantized) that process taboo topics and open-ended creative prompts without ethical lectures.
+  * **Custom Weight Mounting:** Specify your target open-weight model during ordering and we will pre-load it.
+
+---
+
+## ⚙️ How It Works
+
+1. **Submit Order** ──► 2. **Pay via Crypto** ──► 3. **We Deploy** ──► 4. **Instant Delivery**
+   *(Select model)         (USDT/XMR/BTC)           (10–15 min setup)    (WebUI + API Key)*
+
+---
+
+## 📦 What You Receive
+
+* **Private Web UI:** Modern, responsive ChatGPT-style interface accessible from any browser with end-to-end HTTPS encryption.
+* **Universal API Access:** An OpenAI-compatible `/v1` endpoint and Bearer token ready to paste directly into **Claude Code, Cursor, Aider, LibreChat, or local scripts**.
+* **Unlimited Usage:** Dedicated, unthrottled inference. No per-token metering or sudden rate-limit throttling.
+* **Full Data Isolation:** Single-tenant container architecture. No other users share your memory or GPU threads.
+
+---
+
+## 🔒 Privacy & Security Guarantee
+
+* **Zero Request Logging:** Inference engines run with prompt logging permanently disabled. Inputs and generated outputs are never written to disk or container stdout.
+* **Ephemeral Memory:** Optional local-only storage modes ensure chat sessions exist purely inside your browser cache.
+* **Anonymous Billing:** No KYC, identity verification, names, or credit cards required.
+
+---
+
+## 💳 Pricing & Payment
+
+| Dedicated Node Tier | Monthly Rate | Setup Time | Payment Methods |
+| :--- | :--- | :--- | :--- |
+| **Exodus Standard (24GB VRAM Node)** | **$250 / month** | 10–15 mins | USDT, USDC, Monero (XMR), SOL, BTC |
+| **Exodus Pro (Multi-GPU / High-VRAM)** | Custom Quote | Contact | USDT, USDC, Monero (XMR), BTC |
+
+*Subscriptions are paid month-to-month. No lock-in contracts. Renew via crypto transfer before day 30 to maintain uninterrupted access.*
+
+---
+
+## 📩 Order a Server
+
+To deploy your private node immediately:
+
+* **Telegram:** Contact **[@ExodusAISupport](https://t.me/ExodusAISupport)**
+* **Alternative:** Open a private Issue on this repo titled `[ORDER] - New Instance Request`
+
+*State your desired model focus (Coding vs. Creative/Roleplay) and preferred payment cryptocurrency to receive an instant invoice.*
