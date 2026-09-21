@@ -79,5 +79,3 @@ Choose your preferred ordering method below:
 * **Direct Order Form:** **[Submit an Exodus-AI Node Request](https://forms.gle/c8GwrLddJELVewzg6)** *(Quickest intake)*
 * **Telegram:** Direct message **[@venquoo](https://t.me/venquoo)**
 * **GitHub:** Open a private Issue on this repo titled `[ORDER] - New Instance Request`
-
-*Include your target model focus (Coding vs. Creative/Roleplay) and preferred cryptocurrency to receive your payment invoice immediately.*
