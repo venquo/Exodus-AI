@@ -75,7 +75,7 @@ Every deployment runs on dedicated, non-shared compute:
 
 To deploy your private node immediately:
 
-* **Telegram:** Contact **[@ExodusAISupport](https://t.me/ExodusAISupport)**
+* **Telegram:** Contact **[@venquo](https://t.me/venquo)**
 * **Alternative:** Open a private Issue on this repo titled `[ORDER] - New Instance Request`
 
 *State your desired model focus (Coding vs. Creative/Roleplay) and preferred payment cryptocurrency to receive an instant invoice.*
