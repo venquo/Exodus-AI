@@ -6,6 +6,7 @@
 **Zero logs. No content filters. 100% anonymous crypto billing.**
 
 [![Status](https://img.shields.io/badge/Service-Active%20%7C%20Taking%20Orders-00E5FF)](#-order-a-server)
+[![Order Form](https://img.shields.io/badge/Order-Google%20Form-4285F4?logo=googleforms&logoColor=white)](https://forms.gle/c8GwrLddJELVewzg6)
 [![Hardware](https://img.shields.io/badge/Hardware-Dedicated%2024GB%20VRAM-76B900?logo=nvidia&logoColor=white)](#-hardware--models)
 [![Logging](https://img.shields.io/badge/Telemetry-Zero%20Logs-red)](#-privacy--security-guarantee)
 [![Payment](https://img.shields.io/badge/Payment-Crypto%20%7C%20No%20KYC-F7931A)](#-pricing--payment)
@@ -38,7 +39,7 @@ Every deployment runs on dedicated, non-shared compute:
 
 ## ⚙️ How It Works
 
-1. **Submit Order** ──► 2. **Pay via Crypto** ──► 3. **We Deploy** ──► 4. **Instant Delivery**
+1. **Submit Order** ──► 2. **Pay via Crypto** ──► 3. **We Deploy** ──► 4. **Instant Delivery**  
    *(Select model)         (USDT/XMR/BTC)           (10–15 min setup)    (WebUI + API Key)*
 
 ---
@@ -64,7 +65,7 @@ Every deployment runs on dedicated, non-shared compute:
 
 | Dedicated Node Tier | Monthly Rate | Setup Time | Payment Methods |
 | :--- | :--- | :--- | :--- |
-| **Exodus Standard (24GB VRAM Node)** | **$250 / month** | 10–15 mins | USDT, USDC, Monero (XMR), SOL, BTC |
+| **Exodus Standard (24GB VRAM Node)** | **$250 / month** | 10–15 mins | USDT, USDC, Monero (XMR), SOL, BTC, Gift Cards |
 | **Exodus Pro (Multi-GPU / High-VRAM)** | Custom Quote | Contact | USDT, USDC, Monero (XMR), BTC |
 
 *Subscriptions are paid month-to-month. No lock-in contracts. Renew via crypto transfer before day 30 to maintain uninterrupted access.*
@@ -73,9 +74,10 @@ Every deployment runs on dedicated, non-shared compute:
 
 ## 📩 Order a Server
 
-To deploy your private node immediately:
+Choose your preferred ordering method below:
 
-* **Telegram:** Contact **[@venquoo](https://t.me/venquoo)**
-* **Alternative:** Open a private Issue on this repo titled `[ORDER] - New Instance Request`
+* **Direct Order Form:** **[Submit an Exodus-AI Node Request](https://forms.gle/c8GwrLddJELVewzg6)** *(Quickest intake)*
+* **Telegram:** Direct message **[@venquoo](https://t.me/venquoo)**
+* **GitHub:** Open a private Issue on this repo titled `[ORDER] - New Instance Request`
 
-*State your desired model focus (Coding vs. Creative/Roleplay) and preferred payment cryptocurrency to receive an instant invoice.*
+*Include your target model focus (Coding vs. Creative/Roleplay) and preferred cryptocurrency to receive your payment invoice immediately.*
